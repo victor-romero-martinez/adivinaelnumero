@@ -1,0 +1,50 @@
+:root {
+  color-scheme: dark;
+  font-family: monospace;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+section {
+  min-width: 279px;
+  border: 2px solid salmon;
+  border-radius: 1vmax;
+  padding: 5px 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+section > p {
+  text-align: center;
+}
+
+.playground {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#numeroAdivinar {
+  width: 70%;
+  border-color: salmon;
+  border-radius: 1vmax;
+}
+
+button {
+  background-color: transparent;
+  border-color: salmon;
+  border-radius: 1vmax;
+
+}
+
+.detalles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

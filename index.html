@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adivina</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1 id="title">Adivina el numero</h1>
+        <p id="pista">Estoypensando en un número del 1 al 100</p>
+        <div class="playground">
+          <input type="number" id="numeroAdivinar" min="0" max="100"  />
+          <button id="accion" type="button">Adivinar</button>
+        </div>
+        <div class="detalles">
+          <p>intentos: <span id="intentos">0</span> de 5</p>
+          <p>Resultado: <span id="resultado">?</span></p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script type="module" src="main.js"></script>
+</html>
