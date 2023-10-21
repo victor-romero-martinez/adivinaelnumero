@@ -23,7 +23,7 @@ function adivina() {
   // terminar juego
   if (counter >= 5) {
     accion.disabled = true;
-    titulo.textContent = "Gmae Over";
+    titulo.textContent = "Game Over";
     resultado.textContent = secret;
   }
 
